@@ -1,0 +1,102 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	font-size: 20pt;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.inline-div{
+	padding-top: 30px;
+	padding-right:0px;
+	padding-left: 0px;
+}
+ div {
+  padding-top: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+h1{
+	padding-top: 30px;
+	font-size: 200%;
+}
+
+.img-person{
+	border-radius:5%;
+}
+.correo  {
+  padding-top: 30px;
+  padding-right: 150px;
+  padding-left: 150px;
+  text-align:center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size:18pt;
+}
+
+label{
+	font-size:18pt;
+}
+
+input{
+	width:300px;
+	height:30px;
+}
+
+input[type="submit"]{
+	width:150px;
+}
+
+.column {
+  width: 28%;
+  padding: 45px;
+  display: inline-block;
+  text-align:center;
+}
+
+@media screen and (max-width: 1700px) {
+.column p{
+	font-size: 100%;
+}
+
+.column {
+	padding-left:38%;
+}
+}
+
+@media screen and (max-width: 1920px) {
+.column p{
+	font-size: 150%;
+}
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #008080;
+  color: white;
+}
